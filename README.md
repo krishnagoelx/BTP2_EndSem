@@ -5,8 +5,8 @@ This repository contains code and results for analyzing turbulence-airfoil inter
 ## Repository Structure
 
 - **code/**
-  - **amiet_tools_scripts/**: Original test scripts from the amiet_tools package
-  - **modified_scripts/**: Modified versions of the test scripts with enhanced features
+  - **amiet_tools_scripts/**: Modified versions of the test scripts with enhanced features
+  - **modified_scripts/**: entirely new scripts
   
 - **results/**
   - **beamforming_plots/**: Beamforming analysis plots showing the acoustic source distribution
