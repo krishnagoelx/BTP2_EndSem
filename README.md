@@ -9,12 +9,13 @@ This repository contains code and results for analyzing turbulence-airfoil inter
   - **modified_scripts/**: Modified versions of the test scripts with enhanced features
   
 - **results/**
-  - **pressure_plots/**: Plots showing surface pressure distributions, directivity patterns, and chordwise magnitude plots
   - **beamforming_plots/**: Beamforming analysis plots showing the acoustic source distribution
   - **endsem_results/**: Additional results from end-semester analysis
   - **spectral_analysis/**: Results from spectral analysis of turbulence
   - **velocity_analysis/**: Velocity field analysis results
   - **whyresults/**: Additional output visualizations
+
+- **Case Files**: Airfoil pressure distributions and directivity patterns for different test cases are available in the root directory.
 
 ## Key Features
 
