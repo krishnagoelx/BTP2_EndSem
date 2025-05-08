@@ -46,3 +46,7 @@ This repository contains code and results for analyzing turbulence-airfoil inter
 
 This work is based on the amiet_tools package:
 https://github.com/fchirono/amiet_tools 
+
+
+## Author
+krishna goel
