@@ -1,24 +1,4 @@
-"""
-amiet_tools - a Python package for turbulence-aerofoil noise prediction.
-https://github.com/fchirono/amiet_tools
-Copyright (c) 2020, Fabio Casagrande Hirono
-
-
-TestScript4_BeamformingSingleFreq.py
-
-Test script 4: emulates a beamforming measurement at the ISVR open-jet wind
-    tunnel. First, calculates aerofoil interaction noise as seen by a planar
-    microphone array, positioned outsite of the mean flow (includes shear layer
-    refraction effects). Then, computes the array cross-spectral matrix (CSM)
-    and obtain the beamforming map of the source distribution over the
-    aerofoil.
-
-
-Author:
-Fabio Casagrande Hirono
-fchirono@gmail.com
-
-"""
+"""Airfoil turbulence analysis script."""
 
 import numpy as np
 import os

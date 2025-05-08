@@ -1,59 +1,4 @@
-"""
-amiet_tools - a Python package for turbulence-aerofoil noise prediction.
-https://github.com/fchirono/amiet_tools
-Copyright (c) 2020, Fabio Casagrande Hirono
-
-The 'amiet_tools' (AmT) Python package provides a reference implementation of
-Amiet's [JSV 41, 1975] model for turbulence-aerofoil interaction noise with
-extensions. These functions allow the calculation of the surface pressure jump
-developed over the aerofoil surface (i.e. the acoustic source distribution) in
-response to incoming turbulence, and of the acoustic field radiated by the
-interaction.
-
-Incoming turbulence can be a single sinusoidal gust, or a sum of incoherent
-gusts with amplitudes given by a prescribed energy spectrum.
-
-
-Dependencies:
-    - numpy: array processing for numbers, strings, records, and objects;
-    - scipy: scientific library.
-
-
-All dependencies are already included in the Anaconda Python Distribution, a
-free and open source distribution of Python. Anaconda 4.8.2 (with Python 3.7)
-was used to develop and test AmT, and is recommended for using AmT.
-
-
-Author:
-    Fabio Casagrande Hirono - fchirono@gmail.com
-
-
-Main Technical References:
-
-    Amiet, R. K., "Acoustic radiation from an airfoil in a turbulent stream",
-    Journal of Sound and Vibration, Vol. 41, No. 4:407–420, 1975.
-
-    Blandeau, V., "Aerodynamic Broadband Noise from Contra-Rotating Open
-    Rotors", PhD Thesis, Institute of Sound and Vibration Research, University
-    of Southampton, Southampton - UK, 2011.
-
-    Casagrande Hirono, F., "Far-Field Microphone Array Techniques for Acoustic
-    Characterisation of Aerofoils", PhD Thesis, Institute of Sound and
-    Vibration Research, University of Southampton, Southampton - UK, 2018.
-
-    Reboul, G., "Modélisation du bruit à large bande de soufflante de
-    turboréacteur", PhD Thesis, Laboratoire de Mécanique des Fluides et
-    d’Acoustique - École Centrale de Lyon, Lyon - France, 2010.
-
-    Roger, M., "Broadband noise from lifting surfaces: Analytical modeling and
-    experimental validation". In Roberto Camussi, editor, "Noise Sources in
-    Turbulent Shear Flows: Fundamentals and Applications". Springer-Verlag,
-    2013.
-
-    de Santana, L., "Semi-analytical methodologies for airfoil noise
-    prediction", PhD Thesis, Faculty of Engineering Sciences - Katholieke
-    Universiteit Leuven, Leuven, Belgium, 2015.
-"""
+"""Airfoil turbulence analysis script."""
 
 import numpy as np
 import scipy.special as ss
@@ -265,7 +210,6 @@ def DARP2016_MicArray():
     """
     Returns the microphone coordinates for the 'near-field' planar microphone
     array used in the 2016 experiments with the DARP open-jet wind tunnel at
-    the ISVR, Univ. of Southampton, UK [Casagrande Hirono, 2018].
 
     The array is a Underbrink multi-arm spiral array with 36 electret
     microphones, with 7 spiral arms containing 5 mics each and one central mic.

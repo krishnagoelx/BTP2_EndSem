@@ -1,21 +1,4 @@
-"""
-amiet_tools - a Python package for turbulence-aerofoil noise prediction.
-https://github.com/fchirono/amiet_tools
-Copyright (c) 2020, Fabio Casagrande Hirono
-
-
-TestScript3_MultGustsSurfPressure.py
-
-Test script 3: calculate the surface pressure jump cross-spectral density
-matrix and show the power spectrum magnitude, cross-spectrum phase and
-coherence vs. a reference point (xs, ys).
-
-
-Author:
-Fabio Casagrande Hirono
-fchirono@gmail.com
-
-"""
+"""Airfoil turbulence analysis script."""
 
 import numpy as np
 import matplotlib.pyplot as plt

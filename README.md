@@ -11,6 +11,10 @@ This repository contains code and results for analyzing turbulence-airfoil inter
 - **results/**
   - **pressure_plots/**: Plots showing surface pressure distributions, directivity patterns, and chordwise magnitude plots
   - **beamforming_plots/**: Beamforming analysis plots showing the acoustic source distribution
+  - **endsem_results/**: Additional results from end-semester analysis
+  - **spectral_analysis/**: Results from spectral analysis of turbulence
+  - **velocity_analysis/**: Velocity field analysis results
+  - **whyresults/**: Additional output visualizations
 
 ## Key Features
 
@@ -40,8 +44,4 @@ This repository contains code and results for analyzing turbulence-airfoil inter
 ## References
 
 This work is based on the amiet_tools package:
-https://github.com/fchirono/amiet_tools
-
-## Author
-
-Krishna Goel 
+https://github.com/fchirono/amiet_tools 

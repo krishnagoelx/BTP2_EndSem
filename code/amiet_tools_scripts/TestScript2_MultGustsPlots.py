@@ -1,25 +1,4 @@
-"""
-amiet_tools - a Python package for turbulence-aerofoil noise prediction.
-https://github.com/fchirono/amiet_tools
-Copyright (c) 2020, Fabio Casagrande Hirono
-
-
-TestScript2_MultGustsPlots.py
-
-Test script 2: calculates airfoil chordwise (y=0) and spanwise (x=0) far-field
-    directivities (in dB) for the multiple-gusts, near-field model.
-
-    The code calculates the airfoil response only to gusts that are
-    significant
-    This script may take a few minutes to run, due to the sum of the many
-    gusts' contributions.
-
-
-Author:
-Fabio Casagrande Hirono
-fchirono@gmail.com
-
-"""
+"""Airfoil turbulence analysis script."""
 
 import numpy as np
 

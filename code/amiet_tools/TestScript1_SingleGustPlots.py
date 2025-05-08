@@ -1,31 +1,4 @@
-"""
-amiet_tools - a Python package for turbulence-aerofoil noise prediction.
-https://github.com/fchirono/amiet_tools
-Copyright (c) 2020, Fabio Casagrande Hirono
-
-
-TestScript1_SingleGustPlots.py
-
-Test script 1: calculate interaction of a single turbulent gust with a flat
-plate aerofoil, and plot:
-    a) the surface pressure jump (real part and magnitude);
-    b) the radiated acoustic field (real part) near the aerofoil over the
-    x=0 and y=0 planes;
-    c) the chordwise (y=0) and spanwise (x=0) far-field directivities (in dB).
-
-The flow speed is assumed constant through all space (including far-field) -
-i.e. there are no shear layer refraction effects.
-
-
-This code was used to generate the Figures in Chap. 4, Section 4.1 of the
-Authors' PhD thesis [Casagrande Hirono, 2018].
-
-
-Author:
-Fabio Casagrande Hirono
-fchirono@gmail.com
-
-"""
+"""Airfoil turbulence analysis script."""
 
 
 import numpy as np

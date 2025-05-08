@@ -1,18 +1,4 @@
-"""
-amiet_tools - a Python package for turbulence-aerofoil noise prediction.
-https://github.com/fchirono/amiet_tools
-Copyright (c) 2020, Fabio Casagrande Hirono
-
-
-TestScript7_modified.py - Modified version with fixes for plot generation
-
-This script calculates interaction of turbulent gusts with a flat plate airfoil and generates:
-1. Chordwise magnitude plots for different ky values
-2. Surface pressure jump contour plots
-3. Directivity and pressure jump plots for specific test cases
-
-All plots are saved in a dedicated results folder with organized naming.
-"""
+"""Airfoil turbulence analysis script."""
 
 import numpy as np
 import matplotlib.pyplot as plt
